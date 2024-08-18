@@ -1,4 +1,4 @@
-全网首发）新荣耀手机或平板honor更换第三方桌面
+全网首发  新荣耀手机或平板honor更换第三方桌面
 
 fbl_partner_eeap
 2024年08月10日 22:26
@@ -69,3 +69,12 @@ shizuku ，需要在电脑里面激活，并且熟悉adb的命令，如果不熟
 再次警告：出现任何问题 UP不承担任何责任，全文为自创，不准抄袭
 
 删除Android 系统可能会导致手机关机变砖，请在备份好数据的前提下操作，只能删除三次Android系统，超过这个次数手机马上回会关机
+
+
+
+
+命令行总结：
+adb.exe tcpip 5555
+adb shell pm disable com.hihonor.launcher(无效)
+adb.exe shell pm uninstall -k --user 0 android
+adb reboot
